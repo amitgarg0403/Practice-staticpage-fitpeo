@@ -1,0 +1,27 @@
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#212529;
+    border-bottom: 1px grey solid;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+.header-search{
+    max-width: 300px;
+}
+
+.header-notification-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.notification-item{
+    padding: 6px 10px;
+    border-radius: 50%;
+    margin: auto 10px;
+    background-color: white;
+}
