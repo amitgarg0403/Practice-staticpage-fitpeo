@@ -1,40 +1,69 @@
-.recent-order{
-    width: 65%;
-    /* padding: 10px; */
-    margin: auto;
-}
+  .recent-order{
+      width: 55%;
+      margin: 0 auto;  
+  }
 
-.recent-order-block{
-    /* height: 85vh; */
+  .recent-order-block{
+    width: 100%;
+    margin: auto;
+    height: 51vh;
     padding: 10px;
     color: white;
     border-radius: 10px;
     background-color:#32393f;
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch; 
+  }
+
+  .table {
+    min-width: 575px; 
+  }
+  
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .recent-order{
+    width: 83%;
+    margin: 0 auto;  
+  }
+
+  .recent-order-block{
+    width: 99%;
+    height: 85vh;
+    padding: 10px;
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch; 
+  }
 }
 
-
-.recent-order {
-    margin: 1%;  
+@media (max-width: 767px) {
+  .recent-order{
+    width: 80%;
   }
-  
-  .recent-order-block {
-    /* overflow-x: auto;  */
+
+  .recent-order-block{
+    width: 99%;
+    height: 62vh;
+    padding: 10px;
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch; 
+  }
+
+  .table {
+    min-width: 500px; 
+  }
+}
+
+@media (max-width: 480px) {
+
+  .recent-order-block{
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+    overflow-x: auto; 
     /* -webkit-overflow-scrolling: touch;  */
   }
-  
+
   .table {
-    min-width: 600px; 
+    min-width: 400px; 
   }
-  
-  @media (max-width: 768px) {
-    .recent-order{
-        padding: 10px;
-
-    }
-
-    .recent-order-block {
-      overflow-x: auto; 
-      width: 310px;
-      margin-right: 100px;
-    }
-  }
+}

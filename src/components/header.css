@@ -1,22 +1,26 @@
 .header-block{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     background-color:#32393f;
     border-bottom: 1px grey solid;
     padding: 15px;
     margin-bottom: 12px;
+    width: 100%;
 }
 
 .header-block1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 50px;
+    gap: 150px;
+    width: 70%;
+    margin-bottom: 10px;
+
 }
 
 .header-search{
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .header-notification-block{
@@ -33,24 +37,67 @@
     background-color: white;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .header-block {
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+
+    .header-block1{
+        width: 100%;
+        justify-content: center;
+        align-items: baseline;
+        gap: 100px;
+    }
+
+    .header-block1 h4{
+        font-size: 30px;
+    }
+
+    .header-notification-block {
+        width: 30%;
+        justify-content: space-evenly;
+    }
+  }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-block {
+        flex-direction: row;
         align-items: flex-start;
     }
 
     .header-block1{
-        margin-bottom: 10px;
-        align-items: center;
-    }
-
-    .header-search {
         width: 100%;
-        margin-bottom: 10px;
+        justify-content: center;
+        align-items: baseline;
+        gap: 30px;
     }
 
     .header-notification-block {
+        width: 50%;
+        justify-content: space-evenly;
+    }
+  }
+
+@media (max-width: 480px) {
+    .header-block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-block1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 30px;
         width: 100%;
+        align-items: center;
+    }
+
+    .header-notification-block{
+        width: 70%;
+        margin: 5px auto;
         justify-content: space-around;
     }
-}
+  }
+

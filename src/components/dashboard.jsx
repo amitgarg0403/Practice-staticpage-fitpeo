@@ -7,12 +7,10 @@ import Sidebar from "./sidebar";
 
 const Dashboard = () => {
     return ( 
-        <div className="main-block">
+        <div className="body">
             <Header />
             <div className="middle-block">
-                {/* <div className="leftpart"> */}
-                    <Sidebar />
-                {/* </div> */}
+                <Sidebar />
                 <div className="right-part">
                     <h2 className="text-white text-center">Dashboard</h2>
                         <Overview />
