@@ -1,0 +1,97 @@
+
+.activity-block{
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 45px;
+    
+}
+
+.activity-image{
+    width: 500px;
+    height: 200px;
+}
+
+.activity-graph{
+    background-color:#32393f;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.other-indicators{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    padding: 10px;
+    background-color:#32393f;
+    border-radius: 10px;
+}
+
+
+
+.other-indi{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.other-indi-icon i{
+    font-size: 42px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+@media (max-width: 768px) {
+    
+    .activity-block{
+        color: white;
+        padding: 15px;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .activity-graph{
+        width: 315px;
+        margin: auto;
+    }
+
+    .other-indicators{
+        width: 310px;
+        margin: auto;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .other-indi{
+        
+        /* align-items: center;
+        justify-content: center; */
+        gap: 20px;
+        width: 315px;
+        margin: auto;
+        font-size: 20px;
+    }
+    
+    .other-indi-icon i{
+        font-size: 32px;
+    }
+    .activity-image{
+        width: 250px;
+        height: 150px;
+    }
+
+}

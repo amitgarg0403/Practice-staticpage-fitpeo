@@ -1,0 +1,35 @@
+.feedback{
+    /* padding: 10px; */
+
+}
+
+.feedback-block{
+    padding: 10px;
+    background-color:#32393f;
+    border-radius: 10px;
+    color: white;
+    padding-left: 20px;
+
+    width:362px;
+}
+
+.feedback-item-title{
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+    color: rgba(211, 211, 211, 0.534);
+}
+
+@media (max-width: 768px) {
+    .feedback-block{
+        padding: 10px;
+        background-color:#32393f;
+        border-radius: 10px;
+        color: white;
+        padding-left: 20px;
+        margin-left: 12px;
+        width:310px;
+    }
+}

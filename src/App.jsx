@@ -10,12 +10,12 @@ import Sidebar from './components/sidebar';
 function App() {
 
   return (
-    <div className="d-flex">
-      <Sidebar />
-      <div className="flex-grow-1">
+    // <div className="d-flex">
+    //   <Sidebar />
+    //   <div className="flex-grow-1">
         <Dashboard />
-      </div>
-    </div>
+      // </div>
+    // </div>
   )
 }
 

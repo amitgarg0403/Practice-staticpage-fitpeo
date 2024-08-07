@@ -1,0 +1,40 @@
+.recent-order{
+    width: 65%;
+    /* padding: 10px; */
+    margin: auto;
+}
+
+.recent-order-block{
+    /* height: 85vh; */
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color:#32393f;
+}
+
+
+.recent-order {
+    margin: 1%;  
+  }
+  
+  .recent-order-block {
+    /* overflow-x: auto;  */
+    /* -webkit-overflow-scrolling: touch;  */
+  }
+  
+  .table {
+    min-width: 600px; 
+  }
+  
+  @media (max-width: 768px) {
+    .recent-order{
+        padding: 10px;
+
+    }
+
+    .recent-order-block {
+      overflow-x: auto; 
+      width: 310px;
+      margin-right: 100px;
+    }
+  }

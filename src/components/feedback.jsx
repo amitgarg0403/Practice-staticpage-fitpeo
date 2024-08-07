@@ -1,25 +1,33 @@
 import React from 'react';
+import './feedback.css'
 
 const Feedback = () => {
   return (
-    <div className="col-md-6 mb-3">
-      <div className="card h-100">
+    <div className="feedback">
+        <div className="feedback-block">
+          <h5 className="text-light">Customer's Feedback</h5>
         <div className="card-body">
-          <h5 className="card-title">Customer's Feedback</h5>
           <div className="feedback">
-            <h6>Jenny Wilson</h6>
-            <p>⭐⭐⭐⭐⭐</p>
+            <div className="feedback-item-title">
+              <h6>Jenny Wilson</h6>
+              <small>⭐⭐⭐⭐⭐</small>
+            </div>
             <p>The food was excellent and so was the service...</p>
+            <hr />
           </div>
           <div className="feedback">
             <h6>Dianne Russell</h6>
-            <p>⭐⭐⭐⭐⭐</p>
+            <small>⭐⭐⭐⭐⭐</small>
             <p>We enjoyed the Eggs Benedict served on homemade focaccia...</p>
+            <hr />
           </div>
           <div className="feedback">
-            <h6>Devon Lane</h6>
-            <p>⭐⭐⭐⭐⭐</p>
+            <div className="feedback-item-title">
+              <h6>Devon Lane</h6>
+              <small>⭐⭐⭐⭐⭐</small>
+            </div>
             <p>Normally wines are wines, but theirs are lean meaty and tender...</p>
+            <hr />
           </div>
         </div>
       </div>
